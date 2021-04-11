@@ -5,6 +5,13 @@ dans ton index.php, pour pouvoir utiliser les namespaces.*/
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+
 $hello = new App\Wcs\Hello();
-echo $hello->talk();
+echo $hello->talk() ." ". "(1st exercice autoload)";
+echo "<br>";
+
+$sayHello = new HelloWorld\SayHello();
+echo $sayHello->world() ." ". "(2nd exercice Package Management)";
+
+
 
