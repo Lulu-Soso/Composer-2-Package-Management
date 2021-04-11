@@ -1,0 +1,14 @@
+{
+    "name": "lucas/composer-autoload",
+    "description": "Projet quête composer",
+    "authors": [
+        {
+            "name": "Lulu-Soso",
+            "email": "lucas.sokha@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
